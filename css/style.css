@@ -346,3 +346,28 @@ header p,
   opacity: 1;
   transform: translateY(0);
 }
+
+/* pricelist */
+
+.price-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.price-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.price-list li {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

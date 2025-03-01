@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         `Pesan: ${message}`;
 
       // Nomor WhatsApp tujuan (ganti dengan nomor bisnis Anda)
-      let phoneNumber = "6281344374965"; // Ganti dengan nomor WhatsApp bisnis Anda
+      let phoneNumber = "6282236726383"; // Ganti dengan nomor WhatsApp bisnis Anda
 
       // Redirect ke WhatsApp
       let whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${whatsappMessage}`;
